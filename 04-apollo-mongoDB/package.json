@@ -1,0 +1,22 @@
+{
+  "name": "04-apollo-mongodb",
+  "version": "1.0.0",
+  "description": "Integrando Apollo con MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Vic Flores",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^6.2.2",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.5"
+  }
+}

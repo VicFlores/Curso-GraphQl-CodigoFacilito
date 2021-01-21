@@ -1,0 +1,17 @@
+{
+  "name": "03-apollo",
+  "version": "1.0.0",
+  "description": "Primera vez usando Apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Vic Flores",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.17.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.2.2"
+  }
+}
